@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopApp</name>
+    </assembly>
+    <members>
+        <member name="M:ShopApp.Controllers.ProductController.AddProduct(System.String,System.Double)">
+            <summary>
+            add new product to the database
+            </summary>
+            <param name="description"></param>
+            <param name="price"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApp.Controllers.ProductController.RemoveProduct(System.Guid)">
+            <summary>
+            delete product by id from the database
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApp.Controllers.ProductController.EditProduct(System.Guid,System.String,System.Double)">
+            <summary>
+            change product by id
+            </summary>
+            <param name="id"></param>
+            <param name="description"></param>
+            <param name="price"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApp.Controllers.ProductController.SearchProduct(System.Nullable{System.Guid},System.String,System.Nullable{System.Double})">
+            <summary>
+            product search
+            </summary>
+            <param name="id"></param>
+            <param name="description"></param>
+            <param name="price"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ShopApp.Controllers.WeatherForecastController.Get">
+            <summary>
+            my description       
+            </summary>
+            <returns>return weather forecast</returns>
+        </member>
+        <member name="T:ShopApp.Models.Product">
+            <summary>
+            Information about Product
+            </summary>
+        </member>
+        <member name="P:ShopApp.Models.Product.Id">
+            <summary>
+            Unique Id in system
+            </summary>
+        </member>
+        <member name="P:ShopApp.Models.Product.Description">
+            <summary>
+            Priduct description from the manufacturer
+            </summary>
+        </member>
+        <member name="P:ShopApp.Models.Product.Price">
+            <summary>
+            Recomended price from the manufacturer
+            </summary>
+        </member>
+    </members>
+</doc>

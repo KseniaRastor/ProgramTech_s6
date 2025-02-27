@@ -17,6 +17,5 @@
         /// Recomended price from the manufacturer
         /// </summary>
         public double Price { get; set; }
-
     }
 }

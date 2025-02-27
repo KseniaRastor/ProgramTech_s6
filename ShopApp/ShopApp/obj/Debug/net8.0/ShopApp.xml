@@ -28,7 +28,7 @@
             <param name="price"></param>
             <returns></returns>
         </member>
-        <member name="M:ShopApp.Controllers.ProductController.SearchProduct(System.Nullable{System.Guid},System.String,System.Nullable{System.Double})">
+        <member name="M:ShopApp.Controllers.ProductController.SearchProduct(System.Guid)">
             <summary>
             product search
             </summary>
